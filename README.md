@@ -1,4 +1,4 @@
-[![MasterHead](http://devskiller.com/wp-content/uploads/2020/09/screen-html5-devs.jpg)
+![MasterHead](http://devskiller.com/wp-content/uploads/2020/09/screen-html5-devs.jpg)
 
 <h1 align="center">Hi 👋, I'm Hüseynli Xəyal</h1>
 <h3 align="center">A passionate Front-End develepor from Azerbaijan</h3>
