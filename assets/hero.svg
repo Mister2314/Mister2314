@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Xəyal Hüseynli — Junior Front-End Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e100f"/>
+      <stop offset="55%" stop-color="#12100f"/>
+      <stop offset="100%" stop-color="#1a1412"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2e88"/>
+      <stop offset="60%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#ffd23f"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2e88" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff2e88" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+
+  <!-- faint grid, so the surface is not flat -->
+  <g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1">
+    <path d="M0 60h1280M0 120h1280M0 180h1280M0 240h1280M0 300h1280"/>
+    <path d="M80 0v340M240 0v340M400 0v340M560 0v340M720 0v340M880 0v340M1040 0v340M1200 0v340"/>
+  </g>
+
+  <!-- accent corner marks -->
+  <path d="M40 40h56" stroke="url(#accent)" stroke-width="3" stroke-linecap="square"/>
+  <path d="M40 40v56" stroke="url(#accent)" stroke-width="3" stroke-linecap="square"/>
+  <path d="M1240 300h-56" stroke="url(#accent)" stroke-width="3" stroke-linecap="square"/>
+  <path d="M1240 300v-56" stroke="url(#accent)" stroke-width="3" stroke-linecap="square"/>
+
+  <text x="80" y="158"
+        font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="76" font-weight="700" fill="#fffce1" letter-spacing="1.5">
+    X&#399;YAL H&#220;SEYNLI
+  </text>
+
+  <rect x="82" y="186" width="360" height="4" fill="url(#rule)"/>
+
+  <text x="80" y="236"
+        font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="27" font-weight="600" fill="#ff2e88" letter-spacing="0.6">
+    Junior Front-End Developer
+  </text>
+
+  <text x="80" y="276"
+        font-family="Consolas, Menlo, monospace"
+        font-size="19" fill="#8a8578" letter-spacing="0.4">
+    React 19 &#183; TypeScript &#183; Vite &#183; GSAP &#183; Tailwind &#183; Supabase
+  </text>
+
+  <text x="1200" y="120" text-anchor="end"
+        font-family="Consolas, Menlo, monospace"
+        font-size="16" fill="#4a463d">
+    Lankaran, Azerbaijan
+  </text>
+</svg>
