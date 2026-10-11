@@ -38,7 +38,7 @@ flowchart LR
   B --> C["Build gate<br/>tsc --noEmit"]
   C --> D["Add motion<br/>transform + opacity only"]
   D --> E["Check in a browser<br/>375 · 768 · 1024 · 1440"]
-  E --> FDoes it hold?
+  E --> F{"Does it hold?"}
   F -->|no| B
   F -->|yes| G["Say what did not work<br/>in the notes"]
 ```
