@@ -5,9 +5,6 @@
 <p align="center">
 I build interfaces with React and TypeScript, and I care about the parts that are easy to skip:
 scroll behaviour, type safety, and interfaces that still work when the network is slow.
-</p>
-
-<p align="center">
 IT student at Lankaran State University (2025–2029). Every project here is written from
 scratch — no templates, no page builders.
 </p>
@@ -25,13 +22,16 @@ Vanilla JS · CSS · Framer Motion · Supabase · Redux Toolkit
 11-scene scroll story: WebP frame sequences scrubbed on canvas, GSAP timelines, Lenis, and a
 preloader that only says "done" when every frame is actually loaded.
 
----
-
 <div align="center">
+
+<details>
+<summary><b>Hypnos.dev — desktop & mobile</b></summary>
 
 | Desktop | Mobile |
 |---|---|
 | <img src="assets/shot-desktop.png" alt="Hypnos.dev on desktop" width="700"> | <img src="assets/shot-mobile.png" alt="Hypnos.dev on mobile" width="290"> |
+
+</details>
 
 </div>
 
@@ -48,6 +48,8 @@ canvas, GSAP timelines and Lenis. No 3D library, no video file: every frame is e
 
 [**Live →**](https://hypnosdev.vercel.app)
 
+<p align="center"><img src="https://raw.githubusercontent.com/Mister2314/Hypnos.dev/main/docs/demo.gif" alt="Hypnos.dev — scroll story demo" width="600"></p>
+
 </td>
 <td width="50%" valign="top">
 
@@ -57,6 +59,8 @@ Pet-shop e-commerce: nested catalogue, cart, wishlist, checkout, auth and an adm
 Redux Toolkit + Supabase.
 
 [**Live →**](https://pawsoome.netlify.app/)
+
+<p align="center"><img src="https://raw.githubusercontent.com/Mister2314/Final_Project_2/main/docs/demo.gif" alt="Pawsoome demo" width="600"></p>
 
 </td>
 </tr>
@@ -70,6 +74,8 @@ and a comic-ink design system.
 
 [**Live →**](https://portfolio-2-inky-ten.vercel.app)
 
+<p align="center"><img src="https://raw.githubusercontent.com/Mister2314/Portfolio-2/main/docs/demo.gif" alt="Khayal Verse demo" width="600"></p>
+
 </td>
 <td width="50%" valign="top">
 
@@ -79,6 +85,8 @@ Recursive comment UI with unlimited reply depth, inline editing and a custom hoo
 the whole tree to `localStorage`.
 
 [**Live →**](https://nested-comment-systemm.netlify.app/)
+
+<p align="center"><img src="https://raw.githubusercontent.com/Mister2314/Nested-Comments-Thread/main/docs/demo.gif" alt="Nested comments demo" width="600"></p>
 
 </td>
 </tr>
@@ -102,8 +110,7 @@ flowchart LR
   F -->|yes| G["Write down what did not work"]
 ```
 
-The loop is the part I would want a reviewer to judge me on — not the finished screenshot.
-Two habits behind it: `tsc --noEmit` runs as a blocking gate, so a type error cannot reach
+The loop is the part I would want a reviewer to judge me on — not the finished screenshot. Two habits behind it: `tsc --noEmit` runs as a blocking gate, so a type error cannot reach
 production; and motion animates `transform` and `opacity` only, because animating `width` or
 `top` forces layout on every frame. I verify in a real browser at real sizes — a layout that
 only looks right at 1440 is not a layout.
@@ -123,8 +130,6 @@ What I bring instead: React and TypeScript that compiles strictly, motion that r
 `prefers-reduced-motion`, and a habit of checking the output instead of assuming it.
 
 </details>
-
----
 
 ### Get in touch
 
