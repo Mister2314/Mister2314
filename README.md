@@ -27,6 +27,14 @@ preloader that only says "done" when every frame is actually loaded.
 
 ---
 
+<div align="center">
+
+| Desktop | Mobile |
+|---|---|
+| <img src="assets/shot-desktop.png" alt="Hypnos.dev on desktop" width="700"> | <img src="assets/shot-mobile.png" alt="Hypnos.dev on mobile" width="290"> |
+
+</div>
+
 ### Selected work
 
 <table>
